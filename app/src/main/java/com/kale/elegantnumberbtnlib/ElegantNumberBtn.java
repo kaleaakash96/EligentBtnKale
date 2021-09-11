@@ -1,6 +1,5 @@
 package com.kale.elegantnumberbtnlib;
 
-
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -54,7 +53,7 @@ public class ElegantNumberBtn extends RelativeLayout {
         final Resources res = getResources();
         final int defaultColor = res.getColor(R.color.colorPrimary);
         final int defaultTextColor = res.getColor(R.color.colorText);
-        final Drawable defaultDrawable = res.getDrawable(R.drawable.background);
+        final Drawable defaultDrawable = res.getDrawable(R.drawable.rounded_corner);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.ElegantNumberBtn,
                 styleAttr, 0);
